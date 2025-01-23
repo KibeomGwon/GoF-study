@@ -8,3 +8,4 @@
 ## 기본 설계
 <img src="img/visitor%20pattern.png">
 
+### <b>핵심 : 방문하는 일(visit), 방문을 받아들이는 일(accept)</b>
