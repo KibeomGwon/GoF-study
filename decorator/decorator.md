@@ -24,3 +24,10 @@ decorator가 component와 동일시 되면서 구현하고 있다.<br>
 - concrete component : Base
 - Decorator : AbstAdding
 - concrete decorator : Espresso, Milk
+<br>
+<br>
+
+<b>객체 생성 그래프</b>
+- base@988
+- Espresso@1032 : base = base@988
+- Espresso@1040 : base = Espresso@1032

@@ -4,6 +4,7 @@ public class Espresso extends AbstAdding {
 
     static protected int espressoCount = 0;
 
+    // super를 이용했기 때문에
     public Espresso(IBeverage material) {
         super(material);
     }
@@ -20,6 +21,7 @@ public class Espresso extends AbstAdding {
         if (espressoCount > 1) {
             addPrice = 70;
         }
+        System.out.println(espressoCount);
         return addPrice;
     }
 }
